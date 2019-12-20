@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/master.swiftdeps"
+  },
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XCTestManifests.swift": {
+    "dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.d",
+    "object": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.swiftdeps"
+  },
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XMPPFrameworkTests.swift": {
+    "dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.d",
+    "object": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.swift.o",
+    "swiftmodule": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.swiftdeps"
+  }
+}

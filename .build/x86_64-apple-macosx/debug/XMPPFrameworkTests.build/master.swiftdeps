@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "3d1a3ebf496897083a8db9c4b03a8c20"
+build_time: [1576861931, 885703000]
+inputs:
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XCTestManifests.swift": [1576861570, 269065940]
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XMPPFrameworkTests.swift": [1576861570, 268853749]

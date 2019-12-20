@@ -1,0 +1,65 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "main": ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule","<XMPPFramework-debug.module>"]
+  "test": ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.swiftmodule","<XMPPFramework-debug.module>","<XMPPFrameworkPackageTests-debug.test>","<XMPPFrameworkTests-debug.module>"]
+  "XMPPFramework-debug.module": ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule","<XMPPFramework-debug.module>"]
+  "XMPPFrameworkPackageTests-debug.test": ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests","<XMPPFrameworkPackageTests-debug.test>"]
+  "XMPPFrameworkTests-debug.module": ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.swiftmodule","<XMPPFrameworkTests-debug.module>"]
+default: "main"
+commands: 
+  "<C.XMPPFramework-debug.module>":
+    tool: phony
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule"]
+    outputs: ["<XMPPFramework-debug.module>"]
+
+  "<C.XMPPFrameworkPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests"]
+    outputs: ["<XMPPFrameworkPackageTests-debug.test>"]
+
+  "<C.XMPPFrameworkTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.swiftmodule"]
+    outputs: ["<XMPPFrameworkTests-debug.module>"]
+
+  "C.XMPPFramework-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "XMPPFramework"
+    module-output-path: "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule"
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Sources/XMPPFramework/XMPPFramework.swift"]
+    outputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule"]
+    import-paths: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build"
+    objects: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.11","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Sources/XMPPFramework/XMPPFramework.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+
+  "C.XMPPFrameworkPackageTests-debug.test":
+    tool: shell
+    description: "Linking ./.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests"
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.swift.o"]
+    outputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests"]
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-L","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug","-o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.xctest/Contents/MacOS/XMPPFrameworkPackageTests","-module-name","XMPPFrameworkPackageTests","-Xlinker","-bundle","@/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.11","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.XMPPFrameworkTests-debug.module":
+    tool: swift-compiler
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "XMPPFrameworkTests"
+    module-output-path: "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.swiftmodule"
+    inputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.swiftmodule","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XCTestManifests.swift","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XMPPFrameworkTests.swift"]
+    outputs: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.swiftmodule"]
+    import-paths: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build"
+    objects: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XCTestManifests.swift.o","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFrameworkTests.build/XMPPFrameworkTests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.11","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Onone","-g","-enable-testing","-j4","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-Xfrontend","-color-diagnostics"]
+    sources: ["/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XCTestManifests.swift","/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Tests/XMPPFrameworkTests/XMPPFrameworkTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: "4"
+

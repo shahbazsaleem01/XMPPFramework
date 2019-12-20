@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
+options: "69f55dba7a52aa2e76f4f244a154162a"
+build_time: [1576861931, 804807000]
+inputs:
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Sources/XMPPFramework/XMPPFramework.swift": [1576861570, 267847329]

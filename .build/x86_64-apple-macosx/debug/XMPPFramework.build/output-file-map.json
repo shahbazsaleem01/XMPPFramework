@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/master.swiftdeps"
+  },
+  "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/Sources/XMPPFramework/XMPPFramework.swift": {
+    "dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.d",
+    "object": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.swift.o",
+    "swiftmodule": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework~partial.swiftmodule",
+    "swift-dependencies": "/Users/shahbazsaleem/Documents/Projects/XMPPFramework/.build/x86_64-apple-macosx/debug/XMPPFramework.build/XMPPFramework.swiftdeps"
+  }
+}
